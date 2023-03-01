@@ -14,19 +14,23 @@ public class show_first_20_primes {
         int N = 2;
 
         while (count < numbers){
-            boolean isPrime = true;
-            for (int i = 2; i <= Math.sqrt(N); i++) {
-                if(N % i == 0){
-                    isPrime = false;
-                    break;
-                }
-            }
-            if(isPrime){
+            if(isPrime(N)){
                 System.out.print(N + " ");
                 count++;
             }
 
             N++;
         }
+    }
+
+    private static boolean isPrime(int N) {
+        boolean isPrime = true;
+        for (int i = 2; i <= Math.sqrt(N); i++) {
+            if(N % i == 0){
+                isPrime = false;
+                break;
+            }
+        }
+        return isPrime;
     }
 }
