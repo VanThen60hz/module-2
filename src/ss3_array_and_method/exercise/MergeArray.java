@@ -3,7 +3,7 @@ package ss3_array_and_method.exercise;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class merge_array {
+public class MergeArray {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

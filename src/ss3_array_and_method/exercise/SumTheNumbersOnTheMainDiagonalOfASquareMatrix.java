@@ -2,19 +2,16 @@ package ss3_array_and_method.exercise;
 
 import java.util.Scanner;
 
-public class sum_the_numbers_in_a_specified_column {
+public class SumTheNumbersOnTheMainDiagonalOfASquareMatrix {
     public static void main(String[] args) {
         int[][] arr = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Nhập vào cột chỉ định: ");
-        int RowIndex = scanner.nextInt();
-
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
-            sum += arr[i][RowIndex];
+            sum += arr[i][i];
         }
-        System.out.println("Tổng các số ở cột" + RowIndex + "là: " + sum);
-    }
 
+        System.out.println("tổng các số ở đường chéo chính của ma trận vuông là: " + sum);
+    }
 }

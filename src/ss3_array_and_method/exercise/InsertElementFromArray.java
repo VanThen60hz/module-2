@@ -3,7 +3,7 @@ package ss3_array_and_method.exercise;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class insert_element_from_array {
+public class InsertElementFromArray {
     public static void main(String[] args) {
         int[] arr = new int[]{10, 4, 6, 7, 8};
         Scanner scanner = new Scanner(System.in);

@@ -4,7 +4,7 @@ package ss3_array_and_method.exercise;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class remove_element_to_array {
+public class RemoveElementToArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] arr = new int[]{10, 4, 6, 7, 8, 6};

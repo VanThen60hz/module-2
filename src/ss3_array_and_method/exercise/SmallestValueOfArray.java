@@ -2,7 +2,7 @@ package ss3_array_and_method.exercise;
 
 import java.util.Scanner;
 
-public class find_smallest_value_of_array {
+public class SmallestValueOfArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n;

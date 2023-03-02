@@ -2,7 +2,7 @@ package ss3_array_and_method.exercise;
 
 import java.util.Scanner;
 
-public class count_the_number_of_occurrences_of_a_character_in_a_string {
+public class TheNumberOfOccurrencesOfACharacterInAString {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

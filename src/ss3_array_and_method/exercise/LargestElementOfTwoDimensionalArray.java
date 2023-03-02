@@ -1,6 +1,6 @@
 package ss3_array_and_method.exercise;
 
-public class find_largest_element_of_two_dimensional_array {
+public class LargestElementOfTwoDimensionalArray {
     public static void main(String[] args) {
         int[][] matrix = {
                 {1, 2, 9},
