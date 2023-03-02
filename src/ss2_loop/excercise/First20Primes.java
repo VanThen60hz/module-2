@@ -2,7 +2,7 @@ package ss2_loop.excercise;
 
 import java.util.Scanner;
 
-public class show_first_20_primes {
+public class First20Primes {
 
     public static void main(String[] args) {
         int numbers;

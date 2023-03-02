@@ -1,6 +1,6 @@
 package ss2_loop.excercise;
 
-public class display_shapes {
+public class Shapes {
 
     public static void printRectangle(int width, int height){
         for (int i = 0; i < height; i++) {

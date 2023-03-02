@@ -1,6 +1,6 @@
 package ss2_loop.excercise;
 
-public class display_prime_less_than_100 {
+public class PrimeLessThan100 {
     public static boolean isPrime(int n) {
         if (n <= 1) {
             return false;
