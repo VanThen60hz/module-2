@@ -1,4 +1,4 @@
-package ss9_DSA_List.exercise;
+package ss10_DSA_List.exercise;
 
 public class MyLinkedListest {
     public static void main(String[] args) {

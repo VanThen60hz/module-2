@@ -1,7 +1,4 @@
-package ss9_DSA_List.exercise;
-
-import java.util.ArrayList;
-import java.util.Arrays;
+package ss10_DSA_List.exercise;
 
 public class MyList<E> {
     int size = 0;
