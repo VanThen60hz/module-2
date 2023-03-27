@@ -1,4 +1,4 @@
-package ss10_Stack_Queue.exercise.Map;
+package ss11_Stack_Queue.exercise.Map;
 
 import java.util.*;
 import java.util.TreeMap;

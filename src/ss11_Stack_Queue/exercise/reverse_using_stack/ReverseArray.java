@@ -1,4 +1,4 @@
-package ss10_Stack_Queue.exercise.reverse_using_stack;
+package ss11_Stack_Queue.exercise.reverse_using_stack;
 
 import java.util.Stack;
 
